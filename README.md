@@ -1,5 +1,5 @@
-# ScottishSummit
-Resources referenced during Scottish Summit session
+# ScottishSummit 2021 Homework
+Resources referenced during my Scottish Summit 2021 virtual session
 
 This app will allow you to turn the BypassConsent setting on and off for your various Power Apps
 
@@ -10,11 +10,11 @@ Azure Automation
 2) Add the 2 Power Apps modules to your Automation Account
     - "Microsoft.PowerApps.PowerShell"
     - "Microsoft.PowerApps.Administration.PowerShell"
-3) Add your Admin Credential
+3) Add your Admin Credentials
     - The account will need to have a Power App license
     - The account can only make edits to a Power App if it is an owner, and the app is not currently locked for editing
 4) Create a new PowerShell Runbook and paste in the script
-5) Publish the runbook
+5) Publish the Runbook
 
 Power Apps
 1) Import the "Power Apps - BypassConsent.zip" into Power Apps - this is a create as new import and contains a Power App and flow
@@ -37,8 +37,8 @@ Power Automate
 
 Running the System
 1) If everything has been connected correctly, you should be able to select an environemt, select an app and turn on/off the BypassConsent property
-2) To see this in action, use a seperate account that has never accessed a particular app, run the app and notice the prompt to consent to connections being used - close without granting consent
-3) Use the system to turn on BypassConsent for that same app and go back into the app as the same user, if all has worked correctly, the prompt should no longer be appearing
+2) To see this in action, use a seperate account that has never accessed a particular app, run the app and you will notice a prompt to consent to connections that app requires - close without granting consent
+3) Use the system to turn on BypassConsent for that same app and go back into the app as the same user, if all has worked correctly, the prompt should no longer appear
 
 
 
